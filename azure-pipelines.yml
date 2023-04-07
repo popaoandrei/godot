@@ -26,5 +26,6 @@ steps:
             --detect.blackduck.signature.scanner.individual.file.matching=ALL
             --detect.detector.search.depth=100
             --detect.project.name=godot_azure
+            --detect.accuracy.required=NONE
             --detect.project.version.name=1.0
     DetectVersion: 'latest'
