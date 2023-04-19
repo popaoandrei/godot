@@ -22,10 +22,10 @@ steps:
     BlackDuckService: 'blackduck'
     DetectArguments: |
       --blackduck.trust.cert=true
-            --detect.blackduck.signature.scanner.snippet.matching=FULL_SNIPPET_MATCHING
-            --detect.blackduck.signature.scanner.individual.file.matching=ALL
-            --detect.detector.search.depth=100
-            --detect.project.name=godot_azure
-            --detect.accuracy.required=NONE
-            --detect.project.version.name=1.0
+      --detect.blackduck.signature.scanner.snippet.matching=FULL_SNIPPET_MATCHING
+      --detect.blackduck.signature.scanner.individual.file.matching=ALL
+      --detect.detector.search.depth=100
+      --detect.blackduck.signature.scanner.upload.source.mode=true
+      --detect.project.name=godot_test2
+      --detect.project.version.name=Master
     DetectVersion: 'latest'
