@@ -27,6 +27,6 @@ steps:
       --detect.detector.search.depth=100
       --detect.blackduck.signature.scanner.upload.source.mode=true
       --detect.accuracy.required=NONE
-      --detect.project.name=godot_test2
-      --detect.project.version.name=Master
+      --detect.project.name=SCAN_TEST_ANDREI
+      --detect.project.version.name=1.0
     DetectVersion: 'latest'
