@@ -27,6 +27,7 @@ steps:
       --detect.detector.search.depth=100
       --detect.blackduck.signature.scanner.upload.source.mode=true
       --detect.accuracy.required=NONE
-      --detect.project.name=SCAN_TEST_ANDREI
-      --detect.project.version.name=1.0
+      --detect.project.name=Test_bdio
+      --detect.project.version.name=6.0
+      --detect.code.location.name=azure.godot
     DetectVersion: 'latest'
